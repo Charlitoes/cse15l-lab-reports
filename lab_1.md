@@ -8,7 +8,7 @@
 
 **cat** with no arguments would allow us to print something then the console would print whatever we inputted
 
-![image](Lab report 1 Q1.png)
+![Image](Lab report 1 Q1.png)
 
 2. Examples of cd, ls, and cat with a path to a directory as an argument
 
@@ -16,7 +16,7 @@
 
 **ls** with a path to a directory would show us the files/directories within the directory we inputted
 
-![image](Lab report 1 Q2.png)
+![Image](Lab report 1 Q2.png)
 
 **cat** with a path to a directory would tell us if the path we are going to is a directory.
 
@@ -28,6 +28,6 @@
 
 **cat** with a path to a file would print out what is stored inside the file.
 
-![image](Lab report 1 Q3.png)
+![Image](Lab report 1 Q3.png)
 
 
