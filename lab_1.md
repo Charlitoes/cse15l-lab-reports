@@ -16,7 +16,7 @@
 
 **ls** with a path to a directory would show us the files/directories within the directory we inputted
 
-![Image](Lab report 1 Q2.png)
+![Image](Q2.png)
 
 **cat** with a path to a directory would tell us if the path we are going to is a directory.
 
@@ -28,6 +28,6 @@
 
 **cat** with a path to a file would print out what is stored inside the file.
 
-![Image](Lab report 1 Q3.png)
+![Image](Q3.png)
 
 
