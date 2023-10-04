@@ -9,6 +9,7 @@
 **cat** with no arguments would allow us to print something then the console would print whatever we inputted
 
 ![Image](Lab report 1 Q1.png)
+![Image](Lab report 1 Q2.png)
 
 2. Examples of cd, ls, and cat with a path to a directory as an argument
 
