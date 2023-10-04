@@ -8,11 +8,15 @@
 
 **cat** with no arguments would allow us to print something then the console would print whatever we inputted
 
+![image](Lab report 1 Q1.png)
+
 2. Examples of cd, ls, and cat with a path to a directory as an argument
 
 **cd** with a path to a directory would take us to the directory that we inputted
 
 **ls** with a path to a directory would show us the files/directories within the directory we inputted
+
+![image](Lab report 1 Q2.png)
 
 **cat** with a path to a directory would tell us if the path we are going to is a directory.
 
@@ -23,4 +27,7 @@
 **ls** with a path to a file would tell us the file path
 
 **cat** with a path to a file would print out what is stored inside the file.
+
+![image](Lab report 1 Q3.png)
+
 
