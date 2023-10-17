@@ -6,7 +6,7 @@ ALL THESE EXAMPLES USED `/home` AS THE WORKING DIRECTORY.
 (unless stated otherwise)
    
 `cd` with no arguments would bring us back to our home directory
-when we use `cd` within a directory it would bring us back to the home directory
+when we use `cd` within a directory such as `/lecture1/messages` it would bring us back to the home directory
    
 `ls` with no arguments would show all the directories and files that are within the home directory
 
