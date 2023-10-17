@@ -10,7 +10,7 @@ when we use `cd` within a directory such as `/lecture1/messages` it would bring 
    
 `ls` with no arguments would show all the directories and files that are within the home directory
 
-`cat` with no arguments would allow us to print something then the console would print whatever we inputted
+`cat` with no arguments would be an error since we don't have a specific path we want to `cat` but instead if we were to have no argument it would print out whatever we inputted after we type the command `cat`
 
 ![Image](Question_1.png)
 
