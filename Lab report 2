@@ -1,1 +1,11 @@
 **PART 1**
+
+**PART 2**
+Path to the private key(on local computer):
+![image](private part 2 lab.png)
+
+Path to the public key(within our `ieng6` account):
+![image](public part 2 lab.png)
+
+Shows we don't need to use a password to log into our `ieng6` account:
+![image](no password part 2 lab.png)
