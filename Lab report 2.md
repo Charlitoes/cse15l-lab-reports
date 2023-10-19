@@ -28,6 +28,7 @@ This would create a webpage that uses the port number 4000, so when we look up o
 **PART 2**
 
 Path to the private key(on local computer):
+
 ![image](private_part_2_lab.png)
 
 Path to the public key(within our `ieng6` account):
