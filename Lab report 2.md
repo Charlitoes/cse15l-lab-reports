@@ -1,5 +1,8 @@
 **PART 1**
+Adding hello to the messages:
 ![image](hello_part1.png)
+
+Adding how are you to the messages:
 ![image](howareyou_part1.png)
 
 **PART 2**
