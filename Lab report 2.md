@@ -1,4 +1,5 @@
 **PART 1**
+
 Adding hello to the messages:
 
 ![image](hello_part1.png)
@@ -25,6 +26,7 @@ Example: `java StringServer 4000`
 This would create a webpage that uses the port number 4000, so when we look up our webpage we would look up `localhost:4000`.
 
 **PART 2**
+
 Path to the private key(on local computer):
 ![image](private_part_2_lab.png)
 
