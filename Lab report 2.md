@@ -7,8 +7,8 @@ Adding how are you to the messages:
 
 ![image](howareyou_part1.png)
 
-
-![image]()
+The part that I coded in so this could work:
+![image](coding_bit_part1.png)
 **PART 2**
 Path to the private key(on local computer):
 ![image](private_part_2_lab.png)
