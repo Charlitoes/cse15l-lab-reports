@@ -1,6 +1,6 @@
 **PART 1**
-![image]()
-![image]()
+![image](hello_part1.png)
+![image](howareyou_part1.png)
 
 **PART 2**
 Path to the private key(on local computer):
