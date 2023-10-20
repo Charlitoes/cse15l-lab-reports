@@ -41,9 +41,9 @@ Shows we don't need to use a password to log into our `ieng6` account:
 
 **PART 3**
 
-Throughout weeks 2-3 I learned how to properly navigate through my directories using the terminal. I also learned new commands such as `ssh`, `scp`, and `mkdir`.
-`ssh` meaning secure shell allows me to remotely access a server using a stable internet connection.
-`scp` meaning secure copy allows me to copy a file that is on my computer to a remote computer, we are also able to do vice versa for this as well where we could copy a file from the remote computer to our local computer
-`mkdir` meaning make directory which would literally make a directory in the directory we are in.
+Throughout weeks 2-3 I learned how to properly navigate through my directories using the terminal. I also learned new commands such as `ssh`, `scp`, and `mkdir`.\n
+`ssh` meaning secure shell allows me to remotely access a server using a stable internet connection.\n
+`scp` meaning secure copy allows me to copy a file that is on my computer to a remote computer, we are also able to do vice versa for this as well where we could copy a file from the remote computer to our local computer\n
+`mkdir` meaning make directory which would literally make a directory in the directory we are in.\n
 
 
