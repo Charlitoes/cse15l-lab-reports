@@ -11,6 +11,8 @@ Adding how are you to the messages:
 The part that I coded in so this could work:
 ![image](coding_bit_part1.png)
 
+![image](main_part1.png)
+
 Explanation:
 Some methods that were called in my code are handleRequest and main.
 
