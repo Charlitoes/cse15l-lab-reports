@@ -16,6 +16,8 @@ The part that I coded in so this could work:
 Explanation:
 Some methods that were called in my code are handleRequest and main.
 
+The relevant argument for the function `handleRequest` is the `URI url` argument which gets the url contents which would allow us to get the contents of the url to use in this program.
+
 Within the handleRequest method, I used an if statement to format the webpage, then an else if statement to detect if the path includes `/add-message`.
 Inside the `/add-message` we have a `String[] parameters = url.getQuery().split("=")` which would detect when you would use a query in the weblink.
 In the next line, we have another `if` statement which would look to see if we have s in our query to make sure we are going to get the next parameter for our output.
