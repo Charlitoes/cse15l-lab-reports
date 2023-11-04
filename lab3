@@ -29,7 +29,9 @@ change within the array itself and it would stay the same.
 
 Screenshots of the tests failing and passing with different values in the arrays:
 
+![image](lab3_test-pass.png)
 
+![image](lab3_test-fail.png)
 
 The bug fixes before and after:
 
