@@ -3,6 +3,16 @@
 A failure-inducing input for the buggy `ArrayTests.java` program would be if we were to put more than 1 number in the array
 in the `testReverseInPlace` function. 
 
+**The function we are testing:**
+```
+  static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+
+      arr[i] = arr[arr.length - i - 1];
+    }
+  }
+```
+
 **Example of the function:**
 ```
    public void testReverseInPlace() {
