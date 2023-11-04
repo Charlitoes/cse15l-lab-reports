@@ -4,11 +4,11 @@ A failure-inducing input for the buggy `ArrayTests.java` program would be if we 
 in the `testReverseInPlace` function. 
 
 Example of the function:
-`	public void testReverseInPlace() {
-    int[] input1 = { 3 , 4, 5};
-    ArrayExamples.reverseInPlace(input1);
-    assertArrayEquals(new int[]{ 5, 4, 3 }, input1);
-	}`
+`	public void testReverseInPlace() {`
+`    int[] input1 = { 3 , 4, 5};`
+`    ArrayExamples.reverseInPlace(input1);`
+`    assertArrayEquals(new int[]{ 5, 4, 3 }, input1);`
+`	}`
 
 This would give us a test failure since the `reverseInPlace` method isn't actually reversing the array. 
 
