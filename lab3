@@ -30,3 +30,24 @@ change within the array itself and it would stay the same.
 Screenshots of the tests failing and passing with different values in the arrays:
 
 
+
+The bug fixes before and after:
+
+BEFORE:
+`  static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+  }`
+
+AFTER: 
+`  static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length/2; i += 1) {
+      int temp = arr[i];
+      arr[i] = arr[arr.length - i - 1];
+      arr[arr.length - i - 1] = temp;
+    }
+  }`
+
+I made this change so when we try to reverse the array the first half of the numbers don't get immediately overwritten when we are trying to reverse the array, another notable change I made was that I made the for loop run for half of the time since the changes I made
+allows the array to change 2 numbers per iteration instead of 1 number per iteration. 
