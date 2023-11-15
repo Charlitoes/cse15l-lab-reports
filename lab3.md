@@ -152,24 +152,89 @@ $ find ./technical -name "biomed"
 this printed out the `./biomed` directory since we are looking in the `./technical` directory there's only the `./biomed` directory within it.
 
 
-**Example 3:** `find ./technical -type f -mtime +30`
+**Example 3:** `find ./technical -type f -mtime -30`
 
 This command line would print out any files that have been changed/edited in the past 30 days. 
 
 ```
 chuck@DESKTOP-PN1QKI5 MINGW64 ~/CSE15L/lab3/docsearch/technical (main)
-$ find ./technical -type f -mtime +30
+$ find ./technical -type f -mtime -30
+...
+technical/plos/pmed.0020157.txt
+technical/plos/pmed.0020158.txt
+technical/plos/pmed.0020160.txt
+technical/plos/pmed.0020161.txt
+technical/plos/pmed.0020162.txt
+technical/plos/pmed.0020180.txt
+technical/plos/pmed.0020181.txt
+technical/plos/pmed.0020182.txt
+technical/plos/pmed.0020187.txt
+technical/plos/pmed.0020189.txt
+technical/plos/pmed.0020191.txt
+technical/plos/pmed.0020192.txt
+technical/plos/pmed.0020194.txt
+technical/plos/pmed.0020195.txt
+technical/plos/pmed.0020196.txt
+technical/plos/pmed.0020197.txt
+technical/plos/pmed.0020198.txt
+technical/plos/pmed.0020200.txt
+technical/plos/pmed.0020201.txt
+technical/plos/pmed.0020203.txt
+technical/plos/pmed.0020206.txt
+technical/plos/pmed.0020208.txt
+technical/plos/pmed.0020209.txt
+technical/plos/pmed.0020210.txt
+technical/plos/pmed.0020212.txt
+technical/plos/pmed.0020216.txt
+technical/plos/pmed.0020226.txt
+technical/plos/pmed.0020231.txt
+technical/plos/pmed.0020232.txt
+technical/plos/pmed.0020235.txt
+technical/plos/pmed.0020236.txt
+technical/plos/pmed.0020237.txt
+technical/plos/pmed.0020238.txt
+technical/plos/pmed.0020239.txt
+technical/plos/pmed.0020242.txt
+technical/plos/pmed.0020246.txt
+technical/plos/pmed.0020247.txt
+technical/plos/pmed.0020249.txt
+technical/plos/pmed.0020257.txt
+technical/plos/pmed.0020258.txt
+technical/plos/pmed.0020268.txt
+technical/plos/pmed.0020272.txt
+technical/plos/pmed.0020273.txt
+technical/plos/pmed.0020274.txt
+technical/plos/pmed.0020275.txt
+technical/plos/pmed.0020278.txt
+technical/plos/pmed.0020281.txt
 
 ```
-Since there aren't any files that were changed in the past 30 days there would be no output. 
+I used the find command on the directory `/technical` and it recursively looked through each directory in the `/technical` directory and prints out each file that has been modified in the past 30 days. (There were a lot of files so I cut down the output by a lot, but the output printed each file that was in each directory inside of `/technical`) The reason why it printed out each file is that we are looking at everything in the `/technical` directory including anything that's inside it, then we are specifically looking for all the files which is the reason why I used the -type f, and lastly, we check to see when it's modified by using -mtime -30 which specifically checks if the file was modified in the past 30 days.
 
-**Example 4:** `find ./technical -type d -mtime +30`
+**Example 4:** `find ./technical/911report -type f -mtime -30`
 ```
-chuck@DESKTOP-PN1QKI5 MINGW64 ~/CSE15L/lab3/docsearch (main)
-$ find ./technical -type d -mtime +30
+chuck@DESKTOP-BIIVD2V MINGW64 ~/.ssh/docsearch (main)      
+$ find technical/911report/ -type f -mtime -30
+technical/911report/chapter-1.txt
+technical/911report/chapter-10.txt
+technical/911report/chapter-11.txt
+technical/911report/chapter-12.txt
+technical/911report/chapter-13.1.txt
+technical/911report/chapter-13.2.txt
+technical/911report/chapter-13.3.txt
+technical/911report/chapter-13.4.txt
+technical/911report/chapter-13.5.txt
+technical/911report/chapter-2.txt
+technical/911report/chapter-3.txt
+technical/911report/chapter-5.txt
+technical/911report/chapter-6.txt
+technical/911report/chapter-7.txt
+technical/911report/chapter-8.txt
+technical/911report/chapter-9.txt
+technical/911report/preface.txt
 ```
 
-This would allow us to see if any of the directories in `./technical` were changed in the past 30 days, since there were no changes to these directories in the past 30 days there isn't any output. 
+This would allow us to see if any of the directories in `./technical/911report/` were changed in the past 30 days. This prints out all of the files that have been modified in the past 30 days. The reason is the same as example 3.
 
 
 **Example 5:** `find ./technical -type f -user chuck`
@@ -241,54 +306,67 @@ Again I didn't put the whole output since the output would literally take up hun
 `find ./technical -name "*.txt"` but this time we have one more condition that needs to be met which is that these files have to be owned by the user `"chuck"` if it isn't then there would be no output or an error.
 
 
-**Example 6:** `find ./technical -type d -user chuck`
+**Example 6:** `find ./technical/911report -type f -user chuck`
 ```
-chuck@DESKTOP-PN1QKI5 MINGW64 ~/CSE15L/lab3/docsearch (main)
-$ find ./technical -type d -user chuck
-./technical
-./technical/911report
-./technical/biomed
-./technical/government
-./technical/government/About_LSC
-./technical/government/Alcohol_Problems
-./technical/government/Env_Prot_Agen
-./technical/government/Gen_Account_Office
-./technical/government/Media
-./technical/government/Post_Rate_Comm
-./technical/plos
-
-```
-
-This would output all the directories that are in the `./technical` directory and if they are owned by the user `"chuck"`.
-
-**Example 7:** `find ./technical -type f -executable`
-```
-chuck@DESKTOP-PN1QKI5 MINGW64 ~/CSE15L/lab3/docsearch (main)
-$ find ./technical -type f -executable
+chuck@DESKTOP-BIIVD2V MINGW64 ~/.ssh/docsearch (main)      
+$ find technical/911report/ -type f -user chuck
+technical/911report/chapter-1.txt
+technical/911report/chapter-10.txt
+technical/911report/chapter-11.txt
+technical/911report/chapter-12.txt
+technical/911report/chapter-13.1.txt
+technical/911report/chapter-13.2.txt
+technical/911report/chapter-13.3.txt
+technical/911report/chapter-13.4.txt
+technical/911report/chapter-13.5.txt
+technical/911report/chapter-2.txt
+technical/911report/chapter-3.txt
+technical/911report/chapter-5.txt
+technical/911report/chapter-6.txt
+technical/911report/chapter-7.txt
+technical/911report/chapter-8.txt
+technical/911report/chapter-9.txt
+technical/911report/preface.txt
 
 ```
 
-This command line would find all of the executable files within the `./technical` directory, but since there are no executable files in `./techincal` it would output nothing.
+This would output all the files that are in the `./technical/911report` directory and if they are owned by the user `"chuck"`.
 
-**Example 8:** `find ./technical -type d -executable`
+**Example 7:** `find ./technical -executable`
 ```
-chuck@DESKTOP-PN1QKI5 MINGW64 ~/CSE15L/lab3/docsearch (main)
-$ find ./technical -type d -executable
-./technical
-./technical/911report
-./technical/biomed
-./technical/government
-./technical/government/About_LSC
-./technical/government/Alcohol_Problems
-./technical/government/Env_Prot_Agen
-./technical/government/Gen_Account_Office
-./technical/government/Media
-./technical/government/Post_Rate_Comm
-./technical/plos
+$ find technical/ -executable
+technical/
+technical/911report
+technical/biomed
+technical/government
+technical/government/About_LSC
+technical/government/Alcohol_Problems
+technical/government/Env_Prot_Agen
+technical/government/Gen_Account_Office
+technical/government/Media
+technical/government/Post_Rate_Comm
+technical/plos
+
 ```
 
-This command line would output any executable directories within the `./technical` directory. as we can see there are multiple directories that are in `./technical` which is the reason why we have an output for this
-command line and not for the executable files command line we used in the example before. 
+This command line would find all of the executables within the `./technical` directory, so the outputs would be all of the directories since they are able to be executed and the executables in the `technical/government` directory.
+
+**Example 8:** `find ./technical/government -executable`
+```
+chuck@DESKTOP-BIIVD2V MINGW64 ~/.ssh/docsearch (main)     
+$ find technical/government/ -executable
+technical/government/
+technical/government/About_LSC
+technical/government/Alcohol_Problems
+technical/government/Env_Prot_Agen
+technical/government/Gen_Account_Office
+technical/government/Media
+technical/government/Post_Rate_Comm
+
+```
+
+This command line would output any executables within the `./technical/government` directory. This would narrow down the search to only the `/technical/government` directory, so it would only print out the executables inside of the `technical/government` directory.
+
 
 I used Google and lecture notes to find some different ways to use the find command.
 I also used this website for reference https://www.tecmint.com/35-practical-examples-of-linux-find-command/
