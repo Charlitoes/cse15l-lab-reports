@@ -104,12 +104,12 @@ git status
 ```
 git add ListExamples.java
 git status
+git commit -m "changed index in ListExamples.java"
 ```
 ![insert](lab4_step_9p2.png)
 
 
 ```
-git commit -m "changed index in ListExamples.java"
 git push origin main
 ```
 ![insert](lab4_step_9p3.png)
