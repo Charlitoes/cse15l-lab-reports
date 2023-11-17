@@ -41,6 +41,8 @@ vim Li<tab>.java
 
 
 </index1><enter><n><n><n><n><n><n><n><n><n><l><l><l><l><l><r><2><:wq>
+
+
 ![insert](lab4_step_7.png)
 
 
