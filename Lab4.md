@@ -50,9 +50,9 @@ vim Li<tab>.java
 
 8) **Run the tests, demonstrating that they now succeed**
 
-
+```
 <up><up><up><enter>
-
+```
 
 ![insert](lab4_step_8.png)
 
