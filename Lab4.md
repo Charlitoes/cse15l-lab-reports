@@ -52,6 +52,8 @@ vim Li<tab>.java
 
 
 <up><up><up><enter>
+
+
 ![insert](lab4_step_8.png)
 
 
