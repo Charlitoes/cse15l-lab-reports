@@ -20,7 +20,7 @@ I entered into my ieng6 account by using the ssh command with my ieng6 account.
 5) **Clone your fork of the repository from your Github account (using the SSH URL)**
 
 
-I copy and pasted this `git clone https://github.com/Charlitoes/lab7`
+I copy and pasted (using `<ctrl+c><ctrl+v>`) this `git clone https://github.com/Charlitoes/lab7`
 ![insert](lab4_step_5.png)
 
 
