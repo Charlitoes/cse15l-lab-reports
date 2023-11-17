@@ -43,7 +43,7 @@ bash t<tab>
 **Step6 Summary**
 
 
-I started to use shortcuts such as `<tab>` so it would autofill the file I am trying to either cd into or bash with. I first cd into the lab7 directory after it got cloned into my ieng6 account. Then I ran the bash script to see that the tests failed.
+I started to use shortcuts such as `<tab>` so it would autofill the file I am trying to either cd into or bash with. I first cd into the `lab7` directory after it got cloned into my ieng6 account. Then I ran the bash script `test.sh` to see that the tests failed.
 
 
 
@@ -70,7 +70,7 @@ vim Li<tab>.java
 **Step7 Summary**
 
 
-In this step, I fixed the bug that was causing the tests to fail by using vim to edit the `.java` file. I first used the command `vim` and then typed out `Li<tab>` which auto filled it to `ListExamples` (it didnt auto fill the whole thing because we have another similar file named `ListExamplesTests` which is the reason why it shorted the auto correct. Since it shorted it I just typed out the rest of the characters for the java file I wanted to edit. The finished command looked like this, `ListExamples.java`. Then I executed this command and now we are in VIM. Inside VIM, I searched for `index1` since we knew that `index1` had a bug. So I typed out `/index1<enter>` which is basically the equivalent to ctrl+f in a Chrome tab to search for specific words in a document. I pressed n 9 times to look through every iteration of `index1` until I found the bugged one. I then pressed l 5 times to move my curser under the 1 in `index1` since we know that it should be index2 instead. Then when the curser was under the 1 I pressed `r 2` which would replace the character that my curser is under and pressing 2 is what it is replacing it with. Lastly, to save the change I made I use `:wq` which means to save (the w) and then quit (the q).
+In this step, I fixed the bug that was causing the tests to fail by using vim to edit the `.java` file. I first used the command `vim` and then typed out `Li<tab>` which auto-filled it to `ListExamples` (it didn't auto-fill the whole thing because we have another similar file named `ListExamplesTests` which is the reason why it shorted the auto correct. Since it shorted it I just typed out the rest of the characters for the java file I wanted to edit. The finished command looked like this, `ListExamples.java`. Then I executed this command and now we are in VIM. Inside VIM, I searched for `index1` since we knew that `index1` had a bug. So I typed out `/index1<enter>` which is basically the equivalent to ctrl+f in a Chrome tab to search for specific words in a document. I pressed n 9 times to look through every iteration of `index1` until I found the bugged one. I then pressed l 5 times to move my curser under the 1 in `index1` since we know that it should be index2 instead. Then when the curser was under the 1 I pressed `r 2` which would replace the character that my curser is under and pressing 2 is what it is replacing it with. Lastly, to save the change I made I use `:wq` which means to save (the w) and then quit (the q).
 
 
 8) **Run the tests, demonstrating that they now succeed**
@@ -85,10 +85,10 @@ In this step, I fixed the bug that was causing the tests to fail by using vim to
 **Step8 Summary** 
 
 
-We are now back to the regular terminal and I want to test `ListExamples` again so since I already ran the command a little while ago I pressed `<up>` 3 times and then pressed `<enter>` to execute the bash script.
+We are now back to the regular terminal and I want to test `ListExamples` again so since I already ran the command a little while ago I pressed `<up>` 3 times and then pressed `<enter>` to execute the bash script `test.sh`.
 
 
-9) **Commit and push the resulting change to your Github account (you can pick any commit message!)**
+9) **Commit and push the resulting change to your GitHub account (you can pick any commit message!)**
 
 
 In all the code blocks I typed it all out by hand with no special shortcuts
