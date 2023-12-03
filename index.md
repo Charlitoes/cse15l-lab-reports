@@ -5,3 +5,5 @@
 [Lab 3](https://github.com/Charlitoes/cse15l-lab-reports/blob/main/lab3.md)
 
 [Lab 4](Lab4.md)
+
+[Lab 5](Lab5.md)
