@@ -6,4 +6,4 @@
 
 [Lab 4](Lab4.md)
 
-[Lab 5](Lab5.md)
+[Lab 5](lab5.md)
