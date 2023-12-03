@@ -8,9 +8,9 @@ Hello, this is Student, and I have a question about my code. I compiled and ran 
 
 inputted screenshots:
 
-![insert](lab4_step_4.png)
-![insert](lab4_step_4.png)
-![insert](lab4_step_4.png)
+![insert](lab5p1.png)
+![insert](lab5p2.png)
+![insert](lab5p3.png)
 
 TA response:
 
@@ -26,6 +26,6 @@ Thank you so much, I was able to figure out what that small bug was in ListExamp
 
 Revised screenshots:
 
-![insert](lab4_step_4.png)
-![insert](lab4_step_4.png)
-![insert](lab4_step_4.png)
+![insert](lab5revisedp1.png)
+![insert](lab5revisedp2.png)
+![insert](lab5revisedp3.png)
