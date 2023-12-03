@@ -29,3 +29,8 @@ Revised screenshots:
 ![insert](lab5revisedp1.png)
 ![insert](lab5revisedp2.png)
 ![insert](lab5revisedp3.png)
+
+
+**PART 2**
+
+Although I am currrently taking cse 30 I think I still learned some things about vim that i didn't know like how I could use O and o to go either above the line or below the line to insert things in. I also really enjoyed the vim labs the most since it allowed me to practice and become more efficient in vim since in cse 30 that is what we have to code in. Overall, I enjoyed my time in the cse 15l labs since it allowed me to get to know more people since the labs are much smaller than cse 30 and cse 21 for exmaple and this is my first term at UCSD since I am a transfer so this class really gave me the breather I needed this quarter. 
